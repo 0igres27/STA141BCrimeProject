@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Optional: raw data (keep processed data)
+data/raw/*
+!data/raw/.gitkeep
+
+# System
+.DS_Store
+Thumbs.db
